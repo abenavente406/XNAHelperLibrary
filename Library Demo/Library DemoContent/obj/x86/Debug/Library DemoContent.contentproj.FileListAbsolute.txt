@@ -1,1 +1,2 @@
 C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library DemoContent\obj\x86\Debug\Library DemoContent.contentprojResolveAssemblyReference.cache
+C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library DemoContent\obj\x86\Debug\Library DemoContent.contentprojResolveAssemblyReference.cache

@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\warrior_m.xnb</Output>
+      <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\warrior_m.xnb</Output>
       <Time>2013-01-24T19:25:06.5596816-05:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\EntitySprites.xnb</Output>
+      <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\EntitySprites.xnb</Output>
       <Time>2013-01-24T19:52:13.4857365-05:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\lucasleft.xnb</Output>
+      <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\lucasleft.xnb</Output>
       <Time>2013-01-24T23:28:14.9830917-05:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\lucasright.xnb</Output>
+      <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\lucasright.xnb</Output>
       <Time>2013-01-24T23:04:15.9167818-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -44,10 +44,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library DemoContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library DemoContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -75,7 +75,7 @@
         <Value>2011-09-01T16:22:30-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\GameHelperLibrary\bin\x86\Debug\GameHelperLibrary.dll</Key>
+        <Key>C:\Users\Anthony Benavente\Git\GameHelperLibrary\GameHelperLibrary\bin\x86\Debug\GameHelperLibrary.dll</Key>
         <Value>2013-02-17T22:50:30.3558025-05:00</Value>
       </Assembly>
       <Assembly>
