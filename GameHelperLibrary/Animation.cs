@@ -8,19 +8,28 @@ using Microsoft.Xna.Framework.Graphics;
 namespace GameHelperLibrary {
     public class Animation {
 
-        // The images used in the animation
-        public Texture2D[] images;
+        #region Properties
+        // The current frame to render
+        public int   CurrentFrame { get; set; }
 
-        private float timer { get; set; }
-        public float interval { get; set; }
+        public float Timer { get { return _timer; } private set { _timer = value; } }
+        public float Interval { get { return _interval; } set { _interval = value; } }
 
+        public Texture2D[] Images { get { return _images; } }
+        #endregion
+
+        #region Fields
         // Number of frames in the animation
         private int frames = 0;
-        // The current frame to render
-        public int currentFrame { get; set; }
+
+        private float _interval = 0;
+        private float _timer    = 0;
 
         // The position to draw the animation on the screen
         private Vector2 position;
+        // The images used in the animation
+        private Texture2D[] _images;
+        #endregion
 
         /// <summary>
         /// Creates an animation based on an array of images
@@ -28,15 +37,12 @@ namespace GameHelperLibrary {
         /// <param name="images">The array of images the animation is made from</param>
         /// <param name="interval">The amount of time between each frame (default: 100f)</param>
         public Animation(Texture2D[] images, float interval) {
-            this.interval = interval;
+            _interval = interval;
             frames = images.Length;
-
-            this.images = new Texture2D[frames];
-
+            _images = new Texture2D[frames];
             for (int i = 0; i < frames; i++) {
-                this.images[i] = images[i];
+                _images[i] = images[i];
             }
-
         }
 
         /// <summary>
@@ -50,22 +56,22 @@ namespace GameHelperLibrary {
 
             position = new Vector2(x, y);
 
-            timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+            Timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
  
             //Check the timer is more than the chosen interval
-            if (timer > interval) {
+            if (Timer > Interval) {
                  //Show the next frame
-                    currentFrame++;
+                    CurrentFrame++;
                  //Reset the timer
-                    timer = 0f;
+                    Timer = 0f;
             }
 
             // If we are on the last frame, reset back to the one before the first frame
-            if (currentFrame == frames) {
-                  currentFrame = 0;
+            if (CurrentFrame == frames) {
+                  CurrentFrame = 0;
             }
 
-            spriteBatch.Draw(images[currentFrame], position, Color.White);
+            spriteBatch.Draw(_images[CurrentFrame], position, Color.White);
         }
 
         /// <summary>

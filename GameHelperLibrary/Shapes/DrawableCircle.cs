@@ -16,13 +16,13 @@ namespace GameHelperLibrary.Shapes
     {
         private GraphicsDevice graphics;
 
-        private Texture2D texture = null;
-        private Vector2 _position = Vector2.Zero;
-        private Int32 _radius     = 0;
-        private Color color       = Color.White;
+        private Texture2D texture  = null;
+        private Vector2  _position = Vector2.Zero;
+        private int      _radius   = 0;
+        private Color     color    = Color.White;
 
         public Vector2 Position { get { return _position; } set { _position = value; } }
-        public Int32 Radius     { get { return _radius; } }
+        public int     Radius   { get { return _radius; } }
 
         public DrawableCircle(GraphicsDevice graphics, int radius, Color color, bool filled)
         {

@@ -17,10 +17,10 @@ namespace GameHelperLibrary.Shapes
 
         private GraphicsDevice graphics;
 
-        private Texture2D texture = null;
-        private Vector2 _position = Vector2.Zero;
-        private Vector2 _size     = Vector2.Zero;
-        private Color color       = Color.White;
+        private Texture2D texture  = null;
+        private Vector2  _position = Vector2.Zero;
+        private Vector2  _size     = Vector2.Zero;
+        private Color     color    = Color.White;
 
         public Vector2 Position { get { return _position; } set { _position = value; } }
 

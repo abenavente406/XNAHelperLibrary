@@ -10,17 +10,22 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
 namespace GameHelperLibrary {
-    public class SpriteSheet {
+    public class SpriteSheet
+    {
+        #region Fields
+        private int imageWidth;
+        private int imageHeight;
+        private int _spriteWidth;
+        private int _spriteHeight;
 
-        private Texture2D sourceImage { get; set; }
+        private Texture2D sourceImage;
+        private GraphicsDevice graphics;
+        #endregion
 
-        private int spriteWidth { get; set; }
-        private int spriteHeight { get; set; }
-
-        private int imageWidth { get; set; }
-        private int imageHeight { get; set; }
-
-        private GraphicsDevice graphics { get; set; }
+        #region Properties
+        public int SpriteWidth  { get { return _spriteWidth;  } set { _spriteWidth = value;  } }
+        public int SpriteHeight { get { return _spriteHeight; } set { _spriteHeight = value; } }
+        #endregion
 
         /// <summary>
         /// Create a sprite sheet from a Texture2D
@@ -31,10 +36,10 @@ namespace GameHelperLibrary {
         /// <param name="graphics">The graphics device used by the game</param>
         public SpriteSheet(Texture2D sourceImage, int spriteWidth, int spriteHeight, GraphicsDevice graphics) {
             this.sourceImage = sourceImage;
-            this.imageWidth = sourceImage.Width;
-            this.imageHeight = sourceImage.Height;
-            this.spriteWidth = spriteWidth;
-            this.spriteHeight = spriteHeight;
+            imageWidth = sourceImage.Width;
+            imageHeight = sourceImage.Height;
+            SpriteWidth = spriteWidth;
+            SpriteHeight = spriteHeight;
             this.graphics = graphics;
         }
 
@@ -44,8 +49,8 @@ namespace GameHelperLibrary {
         /// <param name="x">The x tile of the image</param>
         /// <param name="y">The y tile of the image</param>
         /// <returns>A texture2D that is the sub image</returns>
-        public Texture2D getSubImage(int x, int y) {
-            Rectangle sourceRect = new Rectangle(x * spriteWidth, y * spriteHeight, spriteWidth, spriteHeight);
+        public Texture2D GetSubImage(int x, int y) {
+            Rectangle sourceRect = new Rectangle(x * SpriteWidth, y * SpriteHeight, SpriteWidth, SpriteHeight);
 
             Color[] data = new Color[sourceRect.Width * sourceRect.Height];
             sourceImage.GetData<Color>(0, sourceRect, data, 0, data.Length);
