@@ -1,0 +1,12 @@
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Library Demo.exe
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Library Demo.pdb
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\obj\x86\Debug\Library Demo.exe
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\obj\x86\Debug\Library Demo.pdb
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\warrior_m.xnb
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\GameHelperLibrary.dll
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\GameHelperLibrary.pdb
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\EntitySprites.xnb
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\lucasleft.xnb
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\lucasright.xnb
+C:\Users\Anthony Benavente\Documents\Visual Studio 2010\Projects\GameHelperLibrary\Library Demo\Library Demo\obj\x86\Debug\Library Demo.csprojResolveAssemblyReference.cache

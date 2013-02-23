@@ -1,0 +1,4 @@
+Content\warrior_m.xnb
+Content\EntitySprites.xnb
+Content\lucasleft.xnb
+Content\lucasright.xnb

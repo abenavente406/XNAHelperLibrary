@@ -1,0 +1,12 @@
+02-18-13
+--------
+
+- Added classes to draw rectangles and circles
+- Draw filled/non-filled shapes
+
+
+01-05-13
+--------
+
+- Release!
+- Spritesheets, animations, and images
