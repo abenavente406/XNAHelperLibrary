@@ -37,7 +37,34 @@
       <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\lucasright.xnb</Output>
       <Time>2013-01-24T23:04:15.9167818-05:00</Time>
     </Item>
-    <BuildSuccessful>true</BuildSuccessful>
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>blank.png</Source>
+      <Name>blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\blank.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>gradient.png</Source>
+      <Name>gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Anthony Benavente\Git\GameHelperLibrary\Library Demo\Library Demo\bin\x86\Debug\Content\gradient.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <BuildSuccessful>false</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{3B2C46A4-C492-49FB-8D4B-C4FF27D8C7C9}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
@@ -76,7 +103,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Users\Anthony Benavente\Git\GameHelperLibrary\GameHelperLibrary\bin\x86\Debug\GameHelperLibrary.dll</Key>
-        <Value>2013-02-23T00:26:35.0360991-05:00</Value>
+        <Value>2013-02-27T20:40:38.9049785-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>

@@ -29,6 +29,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <PlatformTarget>x86</PlatformTarget>
     <XnaCompressContent>false</XnaCompressContent>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>pdbonly</DebugType>
@@ -60,6 +61,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
+    <Compile Include="Controls\Control.cs" />
+    <Compile Include="Controls\ControlManager.cs" />
+    <Compile Include="Controls\Label.cs" />
+    <Compile Include="Controls\LinkLabel.cs" />
+    <Compile Include="Controls\PictureBox.cs" />
+    <Compile Include="Controls\TextBox.cs" />
+    <Compile Include="States\GameState.cs" />
+    <Compile Include="States\GameStateManager.cs" />
+    <Compile Include="InputHandler.cs" />
     <Compile Include="Shapes\DrawableCircle.cs" />
     <Compile Include="Shapes\DrawableRectangle.cs" />
     <Compile Include="SpriteSheet.cs" />
